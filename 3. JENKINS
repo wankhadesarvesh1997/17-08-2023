@@ -561,8 +561,8 @@ TOMCAT SETUP:
   <role rolename="manager-script"/>
   <user username="tomcat" password="raham123" roles="manager-gui, manager-script"/>
 
-4. vim apache-tomcat-9.0.80/webapps/manager/META-INF/context.xml (delete 21,22)
-5. sh apache-tomcat-9.0.80/bin/startup.sh
+4. vim apache-tomcat-11.0.5/webapps/manager/META-INF/context.xml (delete 21,22)
+5. sh apache-tomcat-11.0.5/bin/startup.sh
 
 public-ip slave:8080
 manager app -- > usrername and passowd
